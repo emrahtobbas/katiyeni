@@ -23938,10 +23938,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Audio,
 	cr.plugins_.Function,
-	cr.plugins_.Mouse,
 	cr.plugins_.Particles,
-	cr.plugins_.Text,
+	cr.plugins_.Mouse,
 	cr.plugins_.Touch,
+	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.behaviors.Rex_MoveTo,
 	cr.behaviors.Flash,
@@ -23972,6 +23972,7 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.plugins_.Sprite.prototype.acts.SetBoolInstanceVar,
 	cr.system_object.prototype.acts.AddVar,
+	cr.system_object.prototype.acts.WaitForSignal,
 	cr.behaviors.Sin.prototype.acts.SetActive,
 	cr.plugins_.Sprite.prototype.acts.SetAnim,
 	cr.plugins_.Arr.prototype.exps.Front,
@@ -23986,6 +23987,8 @@ cr.getObjectRefTable = function () { return [
 	cr.system_object.prototype.acts.CreateObject,
 	cr.system_object.prototype.acts.GoToLayoutByName,
 	cr.plugins_.Mouse.prototype.cnds.IsOverObject,
+	cr.behaviors.Rex_MoveTo.prototype.cnds.OnHitTarget,
+	cr.system_object.prototype.acts.Signal,
 	cr.plugins_.Audio.prototype.acts.SetPaused
 ];};
 

@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1663756449,
+	"version": 1663773739,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -9,6 +9,7 @@
 		"images/ekransprt-sheet0.png",
 		"images/ekransprt-sheet1.png",
 		"images/kati-sheet0.png",
+		"images/kati-sheet1.png",
 		"images/sivi-sheet0.png",
 		"images/sivi-sheet1.png",
 		"images/gaz-sheet0.png",
